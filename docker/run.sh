@@ -9,7 +9,7 @@ fi
 
 # Set a random node name if not set.
 if [ -z "${NODE_NAME}" ]; then
-	NODE_NAME=$(uuidgen)
+  NODE_NAME=$(uuidgen)
 fi
 export NODE_NAME=${NODE_NAME}
 
